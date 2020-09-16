@@ -77,12 +77,21 @@ body {
 
 .container5 {
     height:fit-content;
+    width: 100vw;
     padding:50px;
     background: rgb(252, 250, 250);
-    /* background-image: url('../images/programming.jpg'); */
-    /* background-repeat: no-repeat;
-     background-size: cover; */
      display: flex;
+     position: relative;
+}
+.container5 h1 {
+    position: absolute;
+    top:10px;
+    left:0;
+    width:100%;
+    text-align: center;
+    font-family: sans-serif;
+  
+  
 }
 
 .containProjects {
@@ -176,11 +185,18 @@ body {
     opacity: 1;
     
 }
+.overlay h5 {
+    height:50px;
+    width: 90%;
+    margin:5px auto;
+}
 
 footer {
     width: 100vw;
-    height: 120px;
+    height:100px;
     color: white;
+    display: flex;
+    justify-content: space-between;
     
   
     
@@ -188,20 +204,19 @@ footer {
 
 footer .container {
     width:fit-content;
-    height: fit-content;
+    height: 100px;
     display: flex;
+    justify-content: space-between;
+
     flex-direction: column;
-    margin:0px 40px;
-    margin-bottom: 10px;
+    padding:15px;
 }
 
 footer p {
-    display: inline;
-    padding: 5px;
+    display: inline-block;
+   
 }
-footer div {
-    margin:5px 0px ;
-}
+
 
 
 footer a {
@@ -217,24 +232,26 @@ footer ion-icon {
     
 }
 
-footer ion-icon  {
-    color: white;
-}
+
 
 
 
 footer .copyright {
- text-align: right;
-   
-   
-}
+ width: fit-content;
+ height:fit-content;
+margin-right: 20px;
+position: relative;
+bottom:-75px;
+ }
+
+ 
 
 
 
 
 @media screen and (max-width:1050px) {
     .container3 {
-        height:600px ;
+        height:100vh;
         width: 100vw;
 
     }
@@ -276,6 +293,20 @@ footer .copyright {
        
       
     }
+
+    footer {
+      
+       height:fit-content;
+    }
+
+    footer .copyright {
+      
+        width:fit-content;
+        height:fit-content;
+      
+        
+          
+       }
 
 
 }
@@ -353,6 +384,26 @@ footer .copyright {
        
       
     }
+
+    footer {
+        background-color: black;
+        height:120px;
+        flex-direction: column;
+    }
+
+    footer .container {
+       padding: 5px 0px 20px 15px;
+      
+    }
+
+    footer .copyright {
+       width: 100vw;
+       height:fit-content;
+       margin-right: 20px;
+       position: relative;
+       bottom:5px;
+       font-size: x-small;
+        }
 
 
 }
