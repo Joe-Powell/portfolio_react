@@ -3,14 +3,15 @@
     margin:0;
     box-sizing: border-box;
 }
+
 body {
-   background: white;
+  
 }
 
 
 
 .container2 {
-    height: 500px;
+    height: 100vh;
     color: white;
    
     
@@ -43,14 +44,14 @@ body {
 
 .container3 {
     background: rgb(8, 8, 48);
-    height: 100vh;
+    height: 100%;
     width: 100vw;
     position: fixed;
     z-index: -1;
     top:0px;
-    background-image: url('../images/keys3.jpg');
+     background-image: url('../images/keys3.jpg');
     background-repeat: no-repeat;
-     background-size: cover;
+     background-size: cover; 
      color:white;
 
 
@@ -58,12 +59,12 @@ body {
 
 
 .container4 {
-    background: rgb(17, 16, 20);
+   
     height: 500px;
     width: 100vw;
     margin-top:500px;
     padding: 8vh 0px;
-    color:white;
+    color:white; 
     font-family: sans-serif;
 }
 
@@ -72,14 +73,52 @@ body {
     margin:0px auto;
     color:white;
     line-height: 1.5;
-    font-size:20px;
+    font-size:15px;
+
+    animation-name: cont4P;
+    animation-duration: 5s;
+
 }
+
+ /* @keyframes cont4P{
+    0% {transform:translate(-900px);}
+100% {transform:translate(0); color:red; font-size:20px}
+
+}  */
+
+
+[data-aos="new-animation"] {
+    transform:translate(-900px);
+    
+  
+ 
+} 
+
+[data-aos="new-animation"].aos-animate {
+    transform:translate(0); 
+    
+  }
+
+  .container4 .technologies {
+     
+      width: fit-content;
+      height: fit-content;
+      margin: 60px auto;
+  }
+
+.container4 .fab {
+    font-size: 45px;
+    padding: 0px 10px;
+    color: rgb(66, 66, 224);
+}
+
 
 .container5 {
     height:fit-content;
     width: 100vw;
     padding:50px;
-    background: rgb(252, 250, 250);
+    background: rgba(17, 16, 20, 0.6); 
+    margin: 50px auto;
      display: flex;
      position: relative;
 }
@@ -90,6 +129,7 @@ body {
     width:100%;
     text-align: center;
     font-family: sans-serif;
+    color: white;
   
   
 }
@@ -146,6 +186,7 @@ body {
 
    .overlay {
     position: absolute;
+    top:0;
     z-index: 2;
     display: flex;
     justify-content: space-around;
@@ -155,6 +196,7 @@ body {
     transition: 1s ease-in-out ;
     background: rgba(202, 190, 190, 0.99);
     box-shadow: 0 10px 20px rgba(247, 241, 241, 0.26);
+   
     /* border: 2px solid yellow; */
 }
 
@@ -191,26 +233,32 @@ body {
     margin:5px auto;
 }
 
-footer {
-    width: 100vw;
-    height:100px;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    
-  
-    
-}
+
 
 footer .container {
+    color: white;
     width:fit-content;
     height: 100px;
     display: flex;
     justify-content: space-between;
-
+    height: 100px;
     flex-direction: column;
     padding:15px;
+   
+
+    animation-name: footerCont;
+    animation-duration: 2s;
 }
+
+
+/* @keyframes footerCont {
+
+    0% {transform:translateY(300px);}
+    100% {transform:translateY(0); }
+
+
+
+} */
 
 footer p {
     display: inline-block;
@@ -232,17 +280,27 @@ footer ion-icon {
     
 }
 
-
+footer .githubdiv {
+    display: flex;
+    width: 95vw;
+    justify-content: space-between;
+   
+}
 
 
 
 footer .copyright {
  width: fit-content;
- height:fit-content;
-margin-right: 20px;
-position: relative;
-bottom:-75px;
- }
+ padding-right: 20px;
+ 
+
+ } 
+
+
+
+
+
+
 
  
 
@@ -251,7 +309,7 @@ bottom:-75px;
 
 @media screen and (max-width:1050px) {
     .container3 {
-        height:100vh;
+        height: 100%;
         width: 100vw;
 
     }
@@ -302,8 +360,8 @@ bottom:-75px;
     footer .copyright {
       
         width:fit-content;
-        height:fit-content;
-      
+        padding-right: 20px;
+     
         
           
        }
@@ -341,7 +399,7 @@ bottom:-75px;
 
     .container3 {
       
-        height: 400px;
+        height: 100%;
         width: 100vw;
         position: fixed;
         z-index: -1;
@@ -359,6 +417,11 @@ bottom:-75px;
 
     .container4 p {
         font-size:14px;
+    }
+
+    .container4 .technologies {
+        width: 90vw;
+        margin: 60px auto;
     }
 
     .container5 {
@@ -385,25 +448,39 @@ bottom:-75px;
       
     }
 
-    footer {
-        background-color: black;
-        height:120px;
-        flex-direction: column;
-    }
+  
 
-    footer .container {
-       padding: 5px 0px 20px 15px;
-      
+  
+
+    
+footer .container {
+    color: white;
+    width:fit-content;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    flex-direction: column;
+    padding:15px;
+    padding: 5px 0px 20px 15px;
+   
+
+    animation-name: footerCont;
+    animation-duration: 2s;
+}
+
+    footer .githubdiv  {
+        display: flex;
+        width: 95vw;
+        justify-content: space-between;
+       
     }
 
     footer .copyright {
-       width: 100vw;
-       height:fit-content;
-       margin-right: 20px;
-       position: relative;
-       bottom:5px;
-       font-size: x-small;
-        }
+      font-size: x-small; 
+      padding-right: 20px;
+
+    }
 
 
 }

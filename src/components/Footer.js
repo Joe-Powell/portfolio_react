@@ -14,16 +14,16 @@ export default function Footer() {
                         <p>Linkedin</p>
                     </a>
                 </div>
-                <div>
+                <div class='githubdiv'>
                     <a href='https://github.com/Joe-Powell' target="_blank">
                         <ion-icon name="logo-github"></ion-icon>
-                        <p>Github</p>
+                        <p>Github </p>
                     </a>
+                    <p class='copyright'> Copyright © Joseph Powell 2020</p>
                 </div>
 
             </div>
 
-            <p class='copyright'> Copyright © Joseph Powell 2020</p>
 
         </footer >
     )
