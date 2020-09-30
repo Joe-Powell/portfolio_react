@@ -2,10 +2,11 @@
     padding:0;
     margin:0;
     box-sizing: border-box;
+   
 }
 
 body {
-  
+    font-family: sans-serif; 
 }
 
 
@@ -24,7 +25,7 @@ body {
  padding-top: 50px;
  font-family: cursive;
  width: 100vw;
- height:100vh;
+ height:fit-content;
  text-align: left;
  font-size: 30px;
  color: rgb(252, 248, 248);
@@ -38,6 +39,25 @@ body {
 
 }
 
+.container2 a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding:10px;
+    width: fit-content;
+    margin: 50px auto;
+   
+    font-size: x-large;
+    font-weight: 600;
+    color: blue;
+    background-color: black;
+    border-radius: 15px;
+    transition: 2s;
+}
+
+.container2 a:hover {
+    color:gold;
+}
 
 
 
@@ -59,17 +79,17 @@ body {
 
 
 .container4 {
-   
+    background: rgba(17, 16, 20, 0.6); 
     height: 500px;
     width: 100vw;
-    margin-top:500px;
+   
     padding: 8vh 0px;
     color:white; 
     font-family: sans-serif;
 }
 
 .container4 p {
-    width:60%;
+    width:60vw;
     margin:0px auto;
     color:white;
     line-height: 1.5;
@@ -119,7 +139,7 @@ body {
     padding:50px;
     background: rgba(17, 16, 20, 0.6); 
     margin: 50px auto;
-     display: flex;
+    
      position: relative;
 }
 .container5 h1 {
@@ -137,19 +157,21 @@ body {
 .containProjects {
    display: flex;
     flex-wrap: wrap;
+  justify-content: center;
     margin: auto;
-    height: 800px;
-    max-width: 1000px;
+    height: fit-content;
+    width: fit-content;
    
 
 }
 
 .parent {
     position: relative;
-    z-index: 1;
+    z-index: 2;
     height: 280px;
     width: 450px;
-    margin: 15px auto;
+    margin: 15px;
+   
 }
 
 
@@ -304,7 +326,7 @@ footer .copyright {
 
  
 
-
+                /*//////////////////////1050 AND bELOW //////////////////////////////// */ 
 
 
 @media screen and (max-width:1050px) {
@@ -320,45 +342,29 @@ footer .copyright {
     }
 
     .container4 p {
-        width:80%;
+        width:80vw;
     }
 
-    .containProjects {
-        display: flex;
-         flex-wrap: wrap;
-         margin: auto;
-         height: fit-content;
-         width:100vw;
-        
-     
-     }
-
+   
   
 
     .parent {
-    
-        height: 200px;
+         height: 200px;
         width: 350px;
-        margin: 15px auto;
+        margin: 15px 15px; 
     }
 
     .overlay {
-      
-        height: 200px;
-        width: 350px;
+      height: 200px;
+      width: 350px;
        
-    
-       
-      
     }
 
     footer {
-      
-       height:fit-content;
+      height:fit-content;
     }
 
     footer .copyright {
-      
         width:fit-content;
         padding-right: 20px;
      
@@ -371,12 +377,12 @@ footer .copyright {
 
 
 
-
+    /*//////////////////////  550 AND bELOW //////////////////////////////// */ 
 
 @media screen and (max-width:550px) {
 
     .container2 {
-        height: 400px;
+        height: 100vh;
         color: white;
       
     }
@@ -416,6 +422,7 @@ footer .copyright {
     }
 
     .container4 p {
+        width : 80vw;
         font-size:14px;
     }
 
@@ -425,7 +432,7 @@ footer .copyright {
     }
 
     .container5 {
-        padding:50px 0px;
+        padding:100px 0px;
     }
 
     .parent {

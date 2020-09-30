@@ -25,6 +25,9 @@ function Second() {
                     Php | MySql
                 </div>
             </div>
+            <a href='http://www.joe-powell.com/Resume2020.pdf' target="_blank">Resume</a>
+
+
 
         </div >
     )
