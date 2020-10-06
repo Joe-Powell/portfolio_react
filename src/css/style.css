@@ -13,6 +13,7 @@ body {
 
 .container2 {
     height: 100vh;
+    width: 100vw;
     color: white;
    
     
@@ -20,7 +21,6 @@ body {
 }
 
 .container2 .title {
- 
  padding-left: 90px;
  padding-top: 50px;
  font-family: cursive;
@@ -33,30 +33,52 @@ body {
 
 }
 
-.container2 .skills {
+
+
+
+ .container2 .SklGrtWrap {
+     width: 100%;
+     
+     display: flex;
+    
+   
+ }
+
+ .container2 .SklGrtWrap .skills {
     font-family: sans-serif;
-    line-height: 50px;
+    line-height: 45px;
+    width:fit-content;
+   
 
 }
 
+
+
+
 .container2 a {
-    color: white;
+  
     text-decoration: none;
-    display: block;
-    padding:10px;
+    display: inline-block;
     width: fit-content;
-    margin: 50px auto;
-   
-    font-size: x-large;
+    margin-right: 30px;
+    font-size: xx-large;
     font-weight: 600;
-    color: blue;
-    background-color: black;
-    border-radius: 15px;
+    color: gold;
     transition: 2s;
 }
 
 .container2 a:hover {
-    color:gold;
+    color:blue;
+}
+
+.container2 .greeting {
+    display: inline-block;
+   width: fit-content;
+   font-family: sans-serif;
+   font-size: 15px;
+   margin: 0px 0px;
+   color: yellow;
+   
 }
 
 
@@ -266,10 +288,23 @@ footer .container {
     height: 100px;
     flex-direction: column;
     padding:15px;
+    position: relative;
    
 
     animation-name: footerCont;
     animation-duration: 2s;
+}
+
+
+
+footer .greeting {
+    position: absolute;
+    right:10px;
+    top:15px;
+    color: gold;
+    font-size: 11px;
+
+
 }
 
 
@@ -284,6 +319,8 @@ footer .container {
 
 footer p {
     display: inline-block;
+    color: gold;
+
    
 }
 
@@ -291,7 +328,7 @@ footer p {
 
 footer a {
     text-decoration: none;
-    color: white;
+    color: gold;
   
 }
 
@@ -299,6 +336,7 @@ footer ion-icon {
     vertical-align: bottom;
     padding-right:7px;
     font-size: 20px;
+    color: gold;
     
 }
 
@@ -317,6 +355,8 @@ footer .copyright {
  
 
  } 
+
+
 
 
 
@@ -396,9 +436,15 @@ footer .copyright {
     
     }
 
-    .container2 .skills {
+    .container2 a {
+        margin: 5px 0px ;
+    }
+  
+
+    .container2 .SklGrtWrap .skills {
         font-family: sans-serif;
         line-height: 30px;
+        margin: auto;
     
     }
 
@@ -476,6 +522,8 @@ footer .container {
     animation-duration: 2s;
 }
 
+
+
     footer .githubdiv  {
         display: flex;
         width: 95vw;
@@ -488,6 +536,8 @@ footer .container {
       padding-right: 20px;
 
     }
+
+ 
 
 
 }
