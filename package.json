@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "homepage": "http://joe-powell.com/portfolio-react",
   "private": true,
+  "engines": {
+    "node": "v13.7.0",
+    "npm": "6.13.6"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
