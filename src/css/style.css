@@ -232,37 +232,62 @@ body {
     position: absolute;
     top:0;
     z-index: 2;
-    display: flex;
-    justify-content: space-around;
+    /* display: flex;
+    justify-content: space-around; */
     height: 280px;
     width: 450px;
     opacity: 0;
     transition: 1s ease-in-out ;
-    background: rgba(202, 190, 190, 0.99);
-    box-shadow: 0 10px 20px rgba(247, 241, 241, 0.26);
+   
+    background: rgba(16, 15, 48, 1);
+    color:gold;
+    border:solid white 1px;
+     box-shadow: 0px .2px 10px rgba(230, 200, 32, 0.26); 
    
     /* border: 2px solid yellow; */
 }
 
-.overlay h2 {
-    height: fit-content;
-    padding: 10px;
-    background: white;
-    margin:auto 0px;
-    border-radius: 5%;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.26);
+.overlay .codeButtons {
+    width:100%;
+    margin:40px auto;
+   
+     text-align: center; 
 }
 
+.overlay h4 {
+    width: 100%;
+    padding: 10px;
+    
+  }
+
+.overlay .codeButtons h2 {
+    height: fit-content;
+    width: 45%;
+    display:inline-block;
+    margin-right:10px;
+    padding:10px;
+   
+    /* background: white; */
+    
+    border-radius: 5%;
+     
+}
+
+
 .overlay h2 a {
+    /* box-shadow: 0 10px 20px rgba(0,0,0,0.26); */
     text-decoration: none;
-    color:black;
-    transition: 1s;
+    color:red;
+    transition: 1.2s;
+    
 
 
 }
 
 .overlay h2 a:hover {
-    color: rgba(202, 190, 190, 0.99);
+   
+   color: gold;
+    
 
 
 }
@@ -495,8 +520,12 @@ footer .copyright {
         width: 350px;
        
         opacity: 1;
+        background: rgba(16, 15, 48, 1);
+        color:gold;
+        border:solid white 1px;
+         box-shadow: 0px .2px 10px rgba(230, 200, 32, 0.26); 
       
-        background: rgba(202, 190, 190, 0.40);
+       
        
       
     }

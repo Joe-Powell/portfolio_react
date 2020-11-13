@@ -13,7 +13,7 @@ function Fourth() {
             <p data-aos="fade-right" data-aos-offset="200" data-aos-duration="2000" data-aos-easing="ease-in-out" data-aos-once="true"> I am a well rounded Web Developer
             that develops responsive, customized, and scaleable websites.
             I'm looking for a front-end position within the industry where I
-            can continue to grow and learn, however I do have some knowledge
+            can continue to grow and learn, however I do have knowledge
             with the back-end using Node.js and Php as well.
         </p>
 
