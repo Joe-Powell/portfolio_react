@@ -1,6 +1,7 @@
 {
   "name": "practice",
   "version": "0.1.0",
+  "homepage": "http://joe-powell.com/portfolio-react",
   "private": true,
   "engines": {
     "node": "v13.7.0",
