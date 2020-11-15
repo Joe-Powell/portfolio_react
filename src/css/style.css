@@ -21,16 +21,22 @@ body {
 }
 
 .container2 .title {
- padding-left: 90px;
- padding-top: 50px;
- font-family: cursive;
+ 
+ padding: 50px;
+ font-family: sans-serif;
  width: 100vw;
  height:fit-content;
  text-align: left;
  font-size: 30px;
- color: rgb(252, 248, 248);
- 
+ color: white;
+ background: rgba(17, 16, 20, 0.6); 
 
+}
+
+.container2 .title h2 {
+    width:fit-content;
+    /* font-family: cursive; */
+    border-bottom: 1px solid white;
 }
 
 
@@ -48,6 +54,7 @@ body {
     font-family: sans-serif;
     line-height: 45px;
     width:fit-content;
+    color:white;
    
 
 }
@@ -64,7 +71,7 @@ body {
     font-size: xx-large;
     font-weight: 600;
     color: gold;
-    transition: 2s;
+    transition: 1s;
 }
 
 .container2 a:hover {
@@ -72,16 +79,14 @@ body {
 }
 
 .container2 .greeting {
-    display: inline-block;
-   width: fit-content;
-   font-family: sans-serif;
-   font-size: 15px;
-   margin: 0px 0px;
-   color: yellow;
-   
+    position: absolute;
+    right:5px;
+    top:15px;
+    color: gold;
+    font-size: 11px;
+
+
 }
-
-
 
 
 .container3 {
@@ -113,20 +118,13 @@ body {
 .container4 p {
     width:60vw;
     margin:0px auto;
-    color:white;
+    color:gold;
     line-height: 1.5;
-    font-size:15px;
-
-    animation-name: cont4P;
-    animation-duration: 5s;
+    font-size:18px;
 
 }
 
- /* @keyframes cont4P{
-    0% {transform:translate(-900px);}
-100% {transform:translate(0); color:red; font-size:20px}
 
-}  */
 
 
 [data-aos="new-animation"] {
@@ -158,11 +156,10 @@ body {
 .container5 {
     height:fit-content;
     width: 100vw;
-    padding:50px;
+     padding: 50px; 
     background: rgba(17, 16, 20, 0.6); 
     margin: 50px auto;
-    
-     position: relative;
+    position: relative;
 }
 .container5 h1 {
     position: absolute;
@@ -171,7 +168,7 @@ body {
     width:100%;
     text-align: center;
     font-family: sans-serif;
-    color: white;
+    color: red;
   
   
 }
@@ -179,7 +176,7 @@ body {
 .containProjects {
    display: flex;
     flex-wrap: wrap;
-  justify-content: center;
+    justify-content: center;
     margin: auto;
     height: fit-content;
     width: fit-content;
@@ -190,8 +187,8 @@ body {
 .parent {
     position: relative;
     z-index: 2;
-    height: 280px;
-    width: 450px;
+    height: 200px;
+    width: 350px;
     margin: 15px;
    
 }
@@ -234,9 +231,9 @@ body {
     z-index: 2;
     /* display: flex;
     justify-content: space-around; */
-    height: 280px;
-    width: 450px;
-    opacity: 0;
+    height: 200px;
+    width: 350px;
+    opacity: 1;
     transition: 1s ease-in-out ;
    
     background: rgba(16, 15, 48, 1);
@@ -293,7 +290,7 @@ body {
 }
 
 .overlay:hover {
-    opacity: 1;
+    border: 1px solid black;
     
 }
 .overlay h5 {
@@ -310,37 +307,18 @@ footer .container {
     height: 100px;
     display: flex;
     justify-content: space-between;
-    height: 100px;
     flex-direction: column;
     padding:15px;
     position: relative;
    
-
-    animation-name: footerCont;
-    animation-duration: 2s;
 }
 
 
 
-footer .greeting {
-    position: absolute;
-    right:10px;
-    top:15px;
-    color: gold;
-    font-size: 11px;
-
-
-}
-
-
-/* @keyframes footerCont {
-
-    0% {transform:translateY(300px);}
-    100% {transform:translateY(0); }
 
 
 
-} */
+
 
 footer p {
     display: inline-block;
@@ -391,10 +369,14 @@ footer .copyright {
 
  
 
-                /*//////////////////////1050 AND bELOW //////////////////////////////// */ 
+                /*//////////////////////1625 AND bELOW //////////////////////////////// */ 
 
 
-@media screen and (max-width:1050px) {
+@media screen and (max-width:1625px) {
+    .containProjects {
+        max-width: 760px;
+    }
+
     .container3 {
         height: 100%;
         width: 100vw;
@@ -432,6 +414,7 @@ footer .copyright {
     footer .copyright {
         width:fit-content;
         padding-right: 20px;
+        font-size: x-small; 
      
         
           
@@ -445,6 +428,16 @@ footer .copyright {
     /*//////////////////////  550 AND bELOW //////////////////////////////// */ 
 
 @media screen and (max-width:550px) {
+    .containProjects {
+        display: flex;
+         flex-wrap: wrap;
+         justify-content: center;
+         margin: auto;
+         height: fit-content;
+         width: fit-content;
+        
+     
+     }
 
     .container2 {
         height: 100vh;
@@ -453,13 +446,16 @@ footer .copyright {
     }
 
     .container2 .title {
-        padding-top: 50px;
-        padding-left: 0px;
-        font-size: 14px;
-        text-align: center;
+        padding: 50px 20px;
+      
+         font-size: 18px;
+       
    
     
     }
+
+
+ 
 
     .container2 a {
         margin: 5px 0px ;
@@ -469,7 +465,7 @@ footer .copyright {
     .container2 .SklGrtWrap .skills {
         font-family: sans-serif;
         line-height: 30px;
-        margin: auto;
+       
     
     }
 
@@ -494,7 +490,7 @@ footer .copyright {
 
     .container4 p {
         width : 80vw;
-        font-size:14px;
+        font-size:18px;
     }
 
     .container4 .technologies {
@@ -545,10 +541,7 @@ footer .container {
     flex-direction: column;
     padding:15px;
     padding: 5px 0px 20px 15px;
-   
-
-    animation-name: footerCont;
-    animation-duration: 2s;
+  
 }
 
 

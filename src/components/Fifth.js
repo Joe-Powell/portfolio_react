@@ -7,7 +7,7 @@ function Fifth() {
             <h1 >Projects</h1>
             <div className='containProjects'>
 
-                <div className='parent1 parent' data-aos="fade-right" data-aos-offset="400" data-aos-duration="2000" data-aos-once="true">
+                <div className='parent1 parent' data-aos="fade-right" data-aos-offset="100" data-aos-duration="2000" data-aos-once="true">
                     <div className='overlay'>
                         <h4>This is a weather app getting data from an API. Type in your city and get the current temperature. Technologies used include Javascript, fetch.js, html, and css. </h4>
                         <div class='codeButtons'>
@@ -17,7 +17,7 @@ function Fifth() {
                     </div>
                 </div>
 
-                <div className='parent2 parent' data-aos="fade-left" data-aos-offset="400" data-aos-duration="2000" data-aos-once="true">
+                <div className='parent2 parent' data-aos="fade-left" data-aos-offset="100" data-aos-duration="2000" data-aos-once="true">
 
                     <div className='overlay'>
                         <h4>This is a social media site where you login, upload a photo, create a post, edit, or delete. Technologies used are PHP, javascript, HTML, CSS, MySql, and more.</h4>
@@ -28,7 +28,7 @@ function Fifth() {
                     </div>
                 </div>
 
-                <div className='parent3 parent ' data-aos="fade-right" data-aos-offset="400" data-aos-duration="2000" data-aos-once="true">
+                <div className='parent3 parent ' data-aos="fade-right" data-aos-offset="100" data-aos-duration="2000" data-aos-once="true">
                     <div className='overlay'>
                         <h4>In his project you can add items to cart, remove them, get the total price and to calculate the quantity. Technologies are Javascript, local storage,
                             HTML, and CSS. </h4>
@@ -39,7 +39,7 @@ function Fifth() {
                     </div>
                 </div>
 
-                <div className='parent4 parent' data-aos="fade-left" data-aos-offset="400" data-aos-duration="2000" data-aos-once="true">
+                <div className='parent4 parent' data-aos="fade-left" data-aos-offset="100" data-aos-duration="2000" data-aos-once="true">
                     <div className='overlay'>
                         <h4>This is a crud application where you login, create a post, edit, or delete it. Technologies used include Node.js Express.js, Fetch.js, MongoDB, and more.  </h4>
                         <div class='codeButtons'>

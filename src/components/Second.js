@@ -2,6 +2,8 @@ import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
+import { getDays } from '../getDays';
+
 
 
 function Second() {
@@ -13,8 +15,8 @@ function Second() {
     return (
         <div className='container2'  >
             <div className='title' data-aos="fade-right" data-aos-offset="400" data-aos-duration="3000">
-                <h1>Joe Powell</h1>
-                <h2>Web Developer</h2>
+                <h1>Joseph Powell</h1>
+                <h2>Software Engineer</h2><br></br>
 
                 <a href='http://www.joe-powell.com/Resume2020.pdf' target="_blank">Resume</a>
 
@@ -32,6 +34,11 @@ function Second() {
 
                 </div>
             </div>
+
+
+            {/* <div className='greeting'>
+                <span className='landing'>{setInterval(getDays, 1000)}</span>
+            </div> */}
 
 
 

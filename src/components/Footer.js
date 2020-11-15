@@ -1,5 +1,5 @@
 import React from 'react'
-import { getDays } from '../getDays';
+
 
 
 export default function Footer() {
@@ -25,9 +25,7 @@ export default function Footer() {
                     <p class='copyright'> Copyright © Joseph Powell 2020</p>
                 </div>
 
-                <div className='greeting'>
-                    <span className='landing'>{setInterval(getDays, 1000)}</span>
-                </div>
+
 
             </div>
 
