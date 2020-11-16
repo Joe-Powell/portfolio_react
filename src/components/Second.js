@@ -14,7 +14,7 @@ function Second() {
 
     return (
         <div className='container2'  >
-            <div className='title' data-aos="fade-right" data-aos-offset="400" data-aos-duration="3000">
+            <div className='title' data-aos="fade-right" data-aos-offset="100" data-aos-duration="3000">
                 <h1>Joseph Powell</h1>
                 <h2>Software Engineer</h2><br></br>
 

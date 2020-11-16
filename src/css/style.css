@@ -2,11 +2,22 @@
     padding:0;
     margin:0;
     box-sizing: border-box;
+    overflow-x:hidden;      /*This is so that the animation AAOS wont cause white space.... */
    
 }
 
+/* or ^^^ */
+/*This is so that the animation AAOS wont cause white space.... */
+/* html,
+body{
+width:100%;
+overflow-x:hidden;
+} */
+
 body {
     font-family: sans-serif; 
+    width: 100vw;
+   
 }
 
 
@@ -389,7 +400,7 @@ footer .copyright {
     }
 
     .container4 p {
-        width:80vw;
+        width:60vw;
     }
 
    
@@ -489,7 +500,7 @@ footer .copyright {
     }
 
     .container4 p {
-        width : 80vw;
+        width : 70vw;
         font-size:18px;
     }
 
