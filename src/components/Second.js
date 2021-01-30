@@ -18,7 +18,7 @@ function Second() {
                 <h1>Joseph Powell</h1>
                 <h2>Software Engineer</h2><br></br>
 
-                <a href='http://www.joe-powell.com/Resume2020.pdf' target="_blank">Resume</a>
+                <a href='http://www.joe-powell.com/Resume2020.pdf' target="_blank"  rel="noopener noreferrer">Resume</a>
 
 
 
