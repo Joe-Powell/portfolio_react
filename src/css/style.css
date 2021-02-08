@@ -23,7 +23,7 @@ body {
 
 
 .container2 {
-    height: 100vh;
+    height: 80vh;
     width: 100vw;
     color: white;
    
@@ -129,7 +129,7 @@ body {
 .container4 p {
     width:60vw;
     margin:0px auto;
-    color:gold;
+    color:white;
     line-height: 1.5;
     font-size:18px;
 
@@ -165,151 +165,68 @@ body {
 
 
 .container5 {
-    height:fit-content;
+    height:800px;
     width: 100vw;
      padding: 50px; 
     background: rgba(17, 16, 20, 0.6); 
-    margin: 50px auto;
-    position: relative;
-}
-.container5 h1 {
-    position: absolute;
-    top:10px;
-    left:0;
-    width:100%;
-    text-align: center;
-    font-family: sans-serif;
-    color: red;
   
-  
-}
 
-.containProjects {
-   display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+
+   
+    display:flex;
+    flex-wrap:wrap; 
+    justify-content:center; 
     margin: auto;
-    height: fit-content;
-    width: fit-content;
-   
-
-}
-
-.parent {
-    position: relative;
-    z-index: 2;
-    height: 200px;
-    width: 350px;
-    margin: 15px;
-   
-}
-
-
-
-.parent1 {
-    background-image: url('../images/weatherAppSnippet.PNG');
-    background-repeat: no-repeat;
-    background-size: cover;
-    box-shadow: 0 10px 20px rgba(22, 15, 15, 0.26);
-   
-    
-}
-.parent2 {
-    background-image: url('../images/myPostsPic.PNG');
-    background-repeat: no-repeat;
-    background-size: cover;
-    box-shadow: 0 10px 20px rgba(22, 15, 15, 0.26);
-
-   }
-.parent3 {
-    background-image: url('../images/snippetCart.PNG');
-    background-repeat: no-repeat;
-    background-size: cover;
-    box-shadow: 0 10px 20px rgba(22, 15, 15, 0.26);
-
-   }
-.parent4 {
-    background-image: url('../images/parallaxSnippet.PNG');
-    background-repeat: no-repeat;
-    background-size: cover;
-    box-shadow: 0 10px 20px rgba(22, 15, 15, 0.26);
-
-   }
-
-   .overlay {
-    position: absolute;
-    top:0;
-    z-index: 2;
-    /* display: flex;
-    justify-content: space-around; */
-    height: 200px;
-    width: 350px;
-    opacity: 1;
-    transition: 1s ease-in-out ;
-   
-    background: rgba(16, 15, 48, 1);
-    color:gold;
-    border:solid white 1px;
-     box-shadow: 0px .2px 10px rgba(230, 200, 32, 0.26); 
-   
-    /* border: 2px solid yellow; */
-}
-
-.overlay .codeButtons {
+  
     width:100%;
-    margin:40px auto;
-   
-     text-align: center; 
 }
-
-.overlay h4 {
-    width: 100%;
-    padding: 10px;
-    
+.overProj{
+    height:200px;
+    width:350px;
+    margin: 10px;
+    background-color: rgba(139, 0, 0);
+    transition: all 0.7s ease-in-out;
+  
   }
 
-.overlay .codeButtons h2 {
-    height: fit-content;
-    width: 45%;
-    display:inline-block;
-    margin-right:10px;
-    padding:10px;
+  .overProj h2 {
+    display: inline-block;
+      color:white;
+      height:fit-content;
+      width:50px;
    
-    /* background: white; */
-    
-    border-radius: 5%;
+     }
+
+     .overProj h3 {
      
-}
-
-
-.overlay h2 a {
-    /* box-shadow: 0 10px 20px rgba(0,0,0,0.26); */
-    text-decoration: none;
-    color:red;
-    transition: 1.2s;
-    
-
-
-}
-
-.overlay h2 a:hover {
-   
-   color: gold;
-    
-
-
-}
-
-.overlay:hover {
-    border: 1px solid black;
-    
-}
-.overlay h5 {
+          color:white;
+          margin-top:15px;
+          text-align:center;
+          
+         }
+  
+   .btnCont a {
+    display: block;
     height:50px;
-    width: 90%;
-    margin:5px auto;
-}
-
+    background-color: #100f30;
+    padding: 5px 4%;
+    margin: 3px 0px;
+    border-top:#100f30 solid 1px;
+    border-bottom:#100f30 solid 1px;
+     
+   }
+  
+   .btnCont a:hover {
+    border-top: silver solid 1px;
+   }
+  
+   .btnCont p {
+    display: inline-block;
+    width: fit-content;
+    color: white;
+   
+  }
+  
 
 
 footer .container {
@@ -333,7 +250,8 @@ footer .container {
 
 footer p {
     display: inline-block;
-    color: gold;
+    color: white;
+    font-size: 12px;
 
    
 }
@@ -342,7 +260,7 @@ footer p {
 
 footer a {
     text-decoration: none;
-    color: gold;
+    color: white;
   
 }
 
@@ -350,7 +268,7 @@ footer ion-icon {
     vertical-align: bottom;
     padding-right:7px;
     font-size: 20px;
-    color: gold;
+    color: white;
     
 }
 
@@ -406,17 +324,6 @@ footer .copyright {
    
   
 
-    .parent {
-         height: 200px;
-        width: 350px;
-        margin: 15px 15px; 
-    }
-
-    .overlay {
-      height: 200px;
-      width: 350px;
-       
-    }
 
     footer {
       height:fit-content;
@@ -436,6 +343,13 @@ footer .copyright {
 
 
 
+@media screen and (max-width:860px) {
+.container5 {
+    height:1100px;
+}
+}
+
+
     /*//////////////////////  550 AND bELOW //////////////////////////////// */ 
 
 @media screen and (max-width:550px) {
@@ -451,7 +365,7 @@ footer .copyright {
      }
 
     .container2 {
-        height: 100vh;
+        height: 70vh;
         color: white;
       
     }
@@ -496,7 +410,7 @@ footer .copyright {
 
     .container4 {
     margin-top:0px;
-    height: 600px;
+    height: 700px;
     }
 
     .container4 p {
@@ -509,33 +423,50 @@ footer .copyright {
         margin: 60px auto;
     }
 
-    .container5 {
-        padding:100px 0px;
-    }
+   
 
-    .parent {
-        position: relative;
-        z-index: 1;
-        height: 200px;
-        width: 350px;
-        margin: 15px auto;
-    }
-
-    .overlay {
-      
-        height: 200px;
-        width: 350px;
-       
+    .overProj {
+        height:220px;
+        width:400px;
         opacity: 1;
-        background: rgba(16, 15, 48, 1);
-        color:gold;
-        border:solid white 1px;
-         box-shadow: 0px .2px 10px rgba(230, 200, 32, 0.26); 
-      
        
+    
+       }
+    
        
-      
-    }
+    
+        .overProj h2 {
+          color:white;
+          height:50px;
+          width:50px;
+          text-align: center;
+          margin-right:2px;
+         }
+    
+         .overProj h3 {
+          margin-top: 16px;
+         text-align:center;
+         color: #fff;
+         }
+    
+         .btnCont a {
+             width:90vw;
+          display: block;
+          background-color: #100f30;
+          padding: 5px 4%;
+          margin: 3px 0px;
+          border-top:#100f30 solid 1px;
+          border-bottom:#100f30 solid 1px;
+           
+         }
+
+         .btnCont p {
+            display: inline-block;
+            width: fit-content;
+            color: white;
+           
+          }
+    
 
   
 

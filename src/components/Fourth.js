@@ -10,11 +10,13 @@ function Fourth() {
 
     return (
         <div className='container4' >
-            <p data-aos="fade-right" data-aos-offset="100" data-aos-duration="2000" data-aos-easing="ease-in-out" data-aos-once="true"> I am a well rounded Web Developer
-            that develops responsive, customized, and scaleable websites.
-            I'm looking for a front-end position within the industry where I
-            can continue to grow and learn, however I do have knowledge
-            with the back-end using Node.js and Php as well.
+            <p data-aos="fade-right" data-aos-offset="100" data-aos-duration="2000" data-aos-easing="ease-in-out" data-aos-once="true">
+                Hello, I'm Joseph. I am A self-taught Front-end Software Developer. Over the past three years I have been
+                learning from online courses, building projects, and studying the documentations. I have been inspired by other Developers
+                through their online presence and decided that this is definitely what I want to do. After putting some projects together and seeing
+                how websites are built, I realized how satisfying it feels to be able to create websites, provide customization, and solve problems.
+
+
         </p>
 
 
