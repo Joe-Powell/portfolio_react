@@ -12,13 +12,13 @@ export default function Footer() {
 
                 </div>
                 <div className='linkedin '>
-                    <a href='https://www.linkedin.com/in/joseph-powell-737b5617a/' target="_blank">
+                    <a href='https://www.linkedin.com/in/joseph-powell-737b5617a/' target="_blank"  rel="noopener noreferrer">
                         <ion-icon name="logo-linkedin"></ion-icon>
                         <p>Linkedin</p>
                     </a>
                 </div>
                 <div class='githubdiv '>
-                    <a href='https://github.com/Joe-Powell' target="_blank">
+                    <a href='https://github.com/Joe-Powell' target="_blank"  rel="noopener noreferrer">
                         <ion-icon name="logo-github"></ion-icon>
                         <p>Github </p>
                     </a>
